@@ -7,22 +7,24 @@ body{
     position: absolute;
     height: 100%;
     width: 100%;
-    background-image: url("../media/background.gif");
+    background-image: url("../media/rainbow.gif");
     background-repeat: repeat;
+    display: flex;
 }
 
 #still_bg{
     position: absolute;
     height: 100%;
     width: 100%;
-    background-color: #441f6b;
+    background-color: black;
+    display: flex;
 }
 
 .container{
     font-size: 1.7em;
     color: white;
     text-align: justify;
-    margin: 0 10vw;
+    margin: auto 10vw;
     padding: 1% 5%;
 }
 
