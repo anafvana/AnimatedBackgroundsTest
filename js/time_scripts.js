@@ -18,7 +18,7 @@ function time(){
 
 function calc_t_total(){
     var time_end = time();
-    total = time_start - time_end;
+    total = (time_end - time_start)/1000;
     return total;
 }
 
